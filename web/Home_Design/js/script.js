@@ -211,7 +211,6 @@ document.addEventListener('DOMContentLoaded',function(){
     window.addEventListener('resize',function(){
         if(innerWidth<=980){
             slider_li_width = body_ele.clientWidth;
-            console.dir(body_ele)
         }else{
             slider_li_width = 980;
         }
