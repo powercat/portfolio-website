@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded',function(){
     },false);
     /*-------------------kakao_map---------------------*/
     let kakao_map = document.getElementById("map");
-    /*let pointer_map = new daum.maps.LatLng(35.2189627, 129.11008830000003);
+    let pointer_map = new daum.maps.LatLng(35.2189627, 129.11008830000003);
     let options ={
         center:pointer_map,
         level:3
@@ -284,5 +284,5 @@ document.addEventListener('DOMContentLoaded',function(){
         map.setLevel(map.getLevel() + 1);
     }
     document.querySelector(".plus_btn").addEventListener("click",kakao_map_zoomIn,false);
-    document.querySelector(".minus_btn").addEventListener("click",kakao_map_zoomOut,false);*/
+    document.querySelector(".minus_btn").addEventListener("click",kakao_map_zoomOut,false);
 });
