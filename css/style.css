@@ -25,15 +25,17 @@ img, footer{
 .full_page{
     width:100%;
     position:relative;
-    background:#000;
     overflow:hidden;
     color:#fff;
 }
-.full_page:nth-child(2),.full_page:nth-child(4),.full_page:nth-child(6){
+.full_page:nth-child(2n){
     background:#111
 }
-.full_page:nth-child(3),.full_page:nth-child(5){
+.full_page:nth-child(2n+1){
     background:#222
+}
+.full_page:first-child{
+    background:#000;
 }
 header img.header_background.run{
     animation-play-state:running;
